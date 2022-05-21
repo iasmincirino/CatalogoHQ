@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.background {
+    background: url('img/bat-sinal.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.catalogo{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #086589;
+}
+
+form{
+    width: 450px;
+    border: 2px solid #086589;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 20px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.btn{
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px #086589;
+    background: #f4f4f4;
+    float: right;
+}
+
+.btn::placeholder{
+    color: black;
+}
+
+label{
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.botao{
+    text-align: center;
+    background: #086589;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+.botao:hover{
+    background: #11769b;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 290px) {
+    form {
+        width: 300px;
+    }
+}
