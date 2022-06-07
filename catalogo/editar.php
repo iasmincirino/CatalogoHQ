@@ -18,7 +18,7 @@
     <!--BOOTSTRAP-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="editar.css">
     <title>Editar HQ</title>
 </head>
 <body>

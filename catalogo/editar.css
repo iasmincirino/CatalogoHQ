@@ -6,7 +6,7 @@
 }
 
 .background {
-    background: url('img/bat-sinal.jpg') no-repeat center center;
+    background: url('img/mulher-maravilha.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -19,12 +19,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #086589;
+    color: #bb1010;
 }
 
 form{
     width: 450px;
-    border: 2px solid #086589;
+    border: 2px solid #bb1010;
     padding: 20px;
     background: #f4f4f4c2;
     border-radius: 20px;
@@ -39,7 +39,7 @@ h2{
     width: 50%;
     padding: 5px;
     border-radius: 5px;
-    border: solid 1px #086589;
+    border: solid 1px #bb1010;
     background: #f4f4f4;
     float: right;
 }
@@ -56,7 +56,7 @@ label{
 
 .botao{
     text-align: center;
-    background: #086589;
+    background: #bb1010;
     padding: 10px 25px;
     color: #fff;
     border-radius: 5px;
@@ -65,7 +65,7 @@ label{
 }
 
 .botao:hover{
-    background: #11769b;
+    background: #c01d1d;
     cursor: pointer;
 }
 
